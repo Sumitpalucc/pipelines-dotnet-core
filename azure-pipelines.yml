@@ -15,7 +15,6 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    command: 'build'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
